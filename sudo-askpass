@@ -1,0 +1,6 @@
+#!/bin/sh
+# Usado por `sudo -A` cuando Claude necesita privilegios: pide la contraseña en una ventana.
+# El titulo sale al azar de frases.txt (junto a este script); si falta, usa uno fijo.
+f="$(dirname "$(readlink -f "$0")")/frases.txt"
+t=$(shuf -n1 "$f" 2>/dev/null)
+exec zenity --password --title="${t:-Claude pide sudo}"
