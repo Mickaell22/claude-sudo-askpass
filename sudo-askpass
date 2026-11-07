@@ -1,6 +1,22 @@
 #!/bin/sh
-# Usado por `sudo -A` cuando Claude necesita privilegios: pide la contraseña en una ventana.
-# El titulo sale al azar de frases.txt (junto a este script); si falta, usa uno fijo.
-f="$(dirname "$(readlink -f "$0")")/frases.txt"
-t=$(shuf -n1 "$f" 2>/dev/null)
-exec zenity --password --title="${t:-Claude pide sudo}"
+# Usado por `sudo -A` cuando Claude necesita privilegios: pide la contraseña en una
+# ventana. Titulo al azar de frases.txt. Si hay Wayland y kitty, abre la ventana con
+# efectos (askpass.py); si no, o si falla, cae a zenity.
+dir="$(dirname "$(readlink -f "$0")")"
+t=$(shuf -n1 "$dir/frases.txt" 2>/dev/null)
+t="${t:-Claude pide sudo}"
+
+zen() { exec zenity --password --title="$t"; }
+
+[ -n "$WAYLAND_DISPLAY" ] && command -v kitty >/dev/null || zen
+
+# La contraseña pasa por un archivo en un directorio 0700 de XDG_RUNTIME_DIR (tmpfs)
+# y se borra apenas se lee.
+tmp=$(mktemp -d "${XDG_RUNTIME_DIR:-/tmp}/sudo-askpass.XXXXXX") || zen
+trap 'rm -rf "$tmp"' EXIT
+kitty --class sudo-askpass --title "$t" -o confirm_os_window_close=0 \
+    python3 -I "$dir/askpass.py" "$t" "$tmp/clave" >/dev/null 2>&1
+
+if [ -f "$tmp/clave.ok" ]; then cat "$tmp/clave"; echo; exit 0; fi
+[ -f "$tmp/clave.cancel" ] && exit 1
+zen
