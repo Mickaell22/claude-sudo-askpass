@@ -1,15 +1,85 @@
-Claude necesita las llaves del reino
-Toc toc: Claude pide permiso de root
-Firma aqui para que Claude toque /etc
-Claude promete no romper nada (esta vez)
-Contraseña, porfa: Claude va a hacer cosas de admin
-Modo dios solicitado por Claude
-Claude quiere sudo. Tu decides.
-Un rebuild salvaje aparecio: autoriza a Claude
+Abre sesamo, version Linux
+Aprobacion requerida para meterle mano a NixOS
+Autoriza a Claude a reacomodar los muebles del sistema
+Autoriza o Claude se pone triste
+Autorizacion requerida para tunear el sistema
 Claude golpea la puerta de root
-Permiso para meterle mano al sistema?
+Claude invoca permisos de administrador
+Claude jura solemnemente que trama algo bueno
+Claude llama al soporte tecnico: o sea, a vos
+Claude necesita aplicar cambios, dale nomas
+Claude necesita el anillo unico
+Claude necesita el codigo secreto
+Claude necesita el pase de backstage
+Claude necesita el santo y seña
+Claude necesita entrar a la zona VIP del kernel
+Claude necesita firmar con tu sangre (bueno, con tu contraseña)
+Claude necesita la llave maestra
+Claude necesita las llaves del reino
+Claude necesita pasar por la aduana de root
 Claude necesita poderes de superusuario
-Pase VIP de root, por favor
-Claude va a tocar lo delicado: confirma
-Esto requiere tu bendicion (y tu contraseña)
+Claude necesita subir de nivel por un ratito
+Claude necesita una mano con el sudo
+Claude pide el carnet de administrador
 Claude pide el martillo grande
+Claude pide pista para aterrizar en /etc
+Claude pide un favorcito de admin
+Claude prepara el cafe del root
+Claude promete dejar todo mas bonito que antes
+Claude promete no romper nada (esta vez)
+Claude prometio no borrar /, ya en serio
+Claude quiere el control remoto de la tele
+Claude quiere instalar cositas
+Claude quiere jugar con fuego (controlado)
+Claude quiere sudo. Tu decides.
+Claude saca el destornillador grande
+Claude se pone serio: necesita sudo
+Claude solicita acceso al cuarto de maquinas
+Claude solicita acceso nivel dios, temporalmente
+Claude te mira con ojos de cachorro: sudo?
+Claude toca el timbre del root
+Claude toca la puerta de /etc con educacion
+Claude va a configurar algo chevere, confia
+Claude va a hacer magia negra con Nix
+Claude va a hacer un nixos-rebuild, agarrate
+Claude va a tocar lo delicado: confirma
+Contraseña: el ultimo jefe antes del rebuild
+Contraseña o no hay rebuild, asi son las reglas
+Contraseña, porfa: Claude va a hacer cosas de admin
+Contraseña, y Claude sigue con lo suyo
+El sistema exige un sacrificio: tu contraseña
+Esto no es phishing, es Claude pidiendo sudo
+Esto requiere tu bendicion (y tu contraseña)
+Esto va a doler poquito: pide sudo
+Firma aqui, aqui y aqui (bueno, solo aqui)
+Firma aqui para que Claude toque /etc
+Hay que tocar el /nix/store, tu clave porfa
+Hechizo de nivel 9 requiere tu contraseña
+Hora de ponerse el casco de root
+Ingresa la clave y nadie sale herido
+La generacion nueva espera tu bendicion
+Mantenimiento en curso: Claude pide permiso
+Mickaell, Claude necesita tu firma digital
+Modo dios solicitado por Claude
+Momento de confianza: Claude pide privilegios
+Nivel de acceso insuficiente: invoca al jefe
+NixOS pregunta: quien anda ahi?
+Pase VIP de root, por favor
+Pedido oficial del Ministerio de Claude
+Permiso para despertar al demonio (de systemd)?
+Permiso para despertar al kernel?
+Permiso para hackear tu propia compu?
+Permiso para meterle mano al sistema?
+Pide un deseo: Claude necesita root
+Poderes de superusuario, activense!
+Prometo que este no rompe el login
+Root access: incoming
+Se requiere un acto de fe administrativo
+Sin contraseña no hay fiesta
+Solo los dignos pueden pasar: escribe la clave
+Toc toc: Claude pide permiso de root
+Tu sistema, tus reglas: autoriza a Claude
+Un rebuild salvaje aparecio: autoriza a Claude
+Un sudo al dia mantiene al sistema feliz
+Una contraseña salvaje es requerida
+Vamos a romper algo (mentira, a arreglarlo)
